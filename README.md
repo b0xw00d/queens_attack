@@ -1,7 +1,7 @@
 
-# This is a solution for the Queen's Attack code kata.  Any feedback is welcome!
+# This is a solution for the Queen's Attack code kata in Ruby.  Any feedback is welcome.
 
-##Play Instructions: (don't include the $ signs)
+##Play Instructions:
 
 Clone this repository then navigate to that directory in your terminal:
 ```bash
@@ -19,7 +19,7 @@ Play the game:
   $ rake play
 ```
 
-##Test Instructions: (don't include the $ signs)
+##Test Instructions:
 
 Clone this repository then navigate to that directory in your terminal:
 ```bash
