@@ -36,11 +36,11 @@ describe Runner do
     let(:miss) { Game.new(white: [0,0], black: [5,7]) }
 
     it "finds hits" do
-      expect(Runner.goodbye(hit)).to eq "HIT!"
+      expect(Runner.goodbye(hit)).to eq "\e[32mDIRECT HIT!\e[0m"
     end
 
     it "finds misses" do
-      expect(Runner.goodbye(miss)).to eq "miss..."
+      expect(Runner.goodbye(miss)).to eq "\e[31mYou missed...\e[0m"
     end
   end
 
