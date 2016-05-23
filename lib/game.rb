@@ -1,5 +1,3 @@
-require_relative 'runner'
-
 class Game
   attr_reader :board, :white_position, :black_position
 
